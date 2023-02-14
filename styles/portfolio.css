@@ -3,9 +3,9 @@ font-family: 'Poppins', sans-serif;*/
 
 :root {
   --branding-color: #6c63ff;
-  --secondary-colour: #f9f7fe;
+  --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
-  --default-font-family: : "Poppins", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -45,7 +45,7 @@ p {
 }
 
 .hero h2 {
-  font-family: var(--heading-font-family);
+  font-family: var(--heading-font-family)
   font-weight: normal;
   line-height: 2;
   font-size: 24px;

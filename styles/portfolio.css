@@ -58,6 +58,23 @@ p {
   font-size: 24px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -80,9 +97,17 @@ p {
   padding: 120px 60px;
 }
 
+.jackie-pic {
+  max-width: 560px;
+  max-height: 560px;
+  left: 740px;
+  top: 239px;
+  border-radius: 15px;
+}
+
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 56px;
     line-height: 2;
   }
 
@@ -95,6 +120,18 @@ p {
   }
   .project-description {
     padding: 0;
+    text-align: center;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .jackie-pic {
+    max-width: 280px;
+    max-height: 280px;
+    border-radius: 15px;
     text-align: center;
   }
 }

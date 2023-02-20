@@ -108,13 +108,39 @@ p {
 }
 
 .jackie-pic {
-  max-width: 560px;
-  max-height: 560px;
-  left: 740px;
-  top: 239px;
-  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 56px;
@@ -133,15 +159,11 @@ p {
     text-align: center;
   }
 
+  nav a {
+    font-size: 12px;
+  }
   .content {
     text-align: center;
     padding: 0;
-  }
-
-  .jackie-pic {
-    max-width: 280px;
-    max-height: 280px;
-    border-radius: 15px;
-    text-align: center;
   }
 }
